@@ -292,8 +292,8 @@ body {
 }
 
 .ring-container .circle {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     background-color: #c31815;
     border-radius: 50%;
     position: absolute;
@@ -382,6 +382,7 @@ body {
     gap: 32px;
     flex-wrap: nowrap;
     overflow-x: scroll;
+    overflow-y: hidden;
     scroll-snap-type: x mandatory;
     scrollbar-width: none; /* For Firefox */
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
